@@ -801,10 +801,10 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
-coilix@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/coilix/-/coilix-0.4.1.tgz#4a3d74b6f1e4938126e2142b912312bee809e2a8"
-  integrity sha512-JMvEqvTHYmDOFXOWCrD8Ux9Gdhvqk48n2mwqSGCVX22fEf0wodVKg11Kh6gzVrENc9HH0NaCaPmZgJwJJvw6ig==
+coilix@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/coilix/-/coilix-0.5.0.tgz#9b982305a5c20410b8a7a166c83cf80d1273013b"
+  integrity sha512-q3UZoE+sv9VtukhVJYkao1XUgQEheDBY/j+r++YENTtRr62SB7AVYJery7m+lw3lfoToX59v/J86t7hbkPkReA==
   dependencies:
     vue-demi "^0.6.0"
 

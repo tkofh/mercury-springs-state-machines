@@ -69,25 +69,25 @@ onMounted(() => {
 
   useSpring(
     () => state.value.context.headerSalutation,
-    () => (state.value.value === 'locked' ? presets.default : { mass: 1, tension: 100, friction: 12 }),
+    () => (state.value.value === 'locked' ? presets.default : { tension: 100, friction: 12 }),
     { onUpdate: (values) => setHeaderSalutation(values) },
   )
   useSpring(
     () => state.value.context.headerSalutationInner,
     () =>
       state.value.value === 'locked'
-        ? { mass: 1, tension: 60, friction: 14, precision: 0.0001, restingVelocity: 0.00001 }
+        ? { tension: 60, friction: 14, precision: 0.0001, restingVelocity: 0.00001 }
         : { ...presets.default, precision: 0.0001, restingVelocity: 0.00001 },
     { onUpdate: (values) => setHeaderSalutationInner(values) },
   )
   useSpring(
     () => state.value.context.headerQuery,
-    { mass: 1, tension: 175, friction: 30 },
+    { tension: 175, friction: 30 },
     { onUpdate: (values) => setHeaderQuery(values) },
   )
   useSpring(
     () => state.value.context.headerBackground,
-    { mass: 1, tension: 150, friction: 25 },
+    { tension: 150, friction: 25 },
     { onUpdate: (values) => setHeaderBackground(values) },
   )
 })
